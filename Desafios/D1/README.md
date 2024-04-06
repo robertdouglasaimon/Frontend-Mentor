@@ -21,7 +21,7 @@ git clone https://github.com/robertdouglasaimon/Frontend-Mentor.git
 cd Frontend-Mentor
 
 
-3. Abra o arquivo `<a href="Desafios/D1/index.html">index.html</a>` em seu navegador.
+3. Abra o arquivo <a href="https://github.com/robertdouglasaimon/Frontend-Mentor/blob/main/Desafios/D1/index.html">`index.html`</a> em seu navegador.
 
 ## Desenvolvimento
 
