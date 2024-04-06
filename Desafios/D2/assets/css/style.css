@@ -24,7 +24,7 @@ body {
     font-size: 16px;
     min-width: 100vh; 
     margin: 0;
-    padding-top: 120px;
+    padding-top: 140px;
    
 }
 
@@ -76,7 +76,6 @@ body {
 
 
 .text > h3 {
-    color: var(--cor4-Yellow);
     padding-top: 13px;
     padding-left: 2px;
     padding-bottom: 15px;
