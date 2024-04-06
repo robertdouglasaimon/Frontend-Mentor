@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Frontend Mentor | Blog preview card</title>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <img src="assets/images/illustration-article.svg" alt="blog-visual-card">
+    <div class="text">
+      <br>
+      <div id="moreleft">
+        <div id="learning"><strong>Learning</strong></div>
+      </div>
+
+      <h5>
+        <p>Published 21 Dec 2023</p>
+      </h5>
+
+      <h3>HTML & CSS foundations</h3>
+
+      <p>These languages are the backbone of every <br> website, defining structure, content, and <br>presentation.</p>  
+    </div>
+
+    <div id="down-icon">
+      <img src="assets/images/image-avatar.webp" alt="greg-hooper-creator"><strong>Greg Hooper</strong>
+    </div>
+  </div>
+ 
+</div>
+
+</body>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var input = document.getElementById("learning");
+    var valor = input.value;
+    var partes = valor.split('<strong>');
+    input.value = partes[0] + partes[1] + '</strong>' + partes[2];
+});
+
+</script>
+</html>
