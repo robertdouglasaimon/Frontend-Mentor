@@ -1,0 +1,59 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@font-face {
+    font-family: "Outfit", sans-serif;;
+    src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: hsl(0, 0%, 100%);
+    --cor2: hsl(212, 45%, 89%);
+    --cor3: hsl(220, 15%, 55%);
+    --cor4: hsl(218, 44%, 22%);
+
+    --fonte1: "Outfit", sans-serif;
+    --fonte2: "Outfit", sans-serif;
+
+}
+
+body {
+    font-family: var(--fonte2);
+    background-color: var(--cor2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+h2 {
+    padding: 10px;
+    padding-top: 20px;
+    color: var(--cor4);
+}
+
+p {
+    padding: 10px;
+    color: var(--cor3);
+}
+.container {
+    max-width: 360px;
+    margin: 0 auto;    
+}
+
+.card {
+    background-color:var(--cor1);
+    padding: 16px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1rem; 
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 12px;
+}
