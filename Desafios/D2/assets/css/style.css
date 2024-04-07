@@ -18,21 +18,26 @@
 body {
     font-family: var(--fonte-Figtree);
     background-color: var(--cor4-Yellow);
+    min-width: 100vh; 
+    font-size: 16px;
+    margin: 0; 
+}
+
+.outer-container {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
-    min-width: 100vh; 
-    margin: 0;
-    padding-top: 150px;
-   
-}
+  }
 
 .container {
+    height: 100vh;
     min-width: 200px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
-    box-shadow: 12px 10px 1px black;
+    margin: 0 auto;
 }
 
 .card {
@@ -40,7 +45,13 @@ body {
     border-radius: 15px;
     border: 1px solid var(--cor3-Black);
     padding: 15px;
-    margin: 0;
+    margin: 0 auto;
+    box-shadow: 8px 9px 2px 0px black;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 12px 13px 5px 0px black; /* Altera a sombra quando o mouse passa sobre o elemento */
 }
 
 .card > img {
