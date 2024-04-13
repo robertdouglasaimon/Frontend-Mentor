@@ -1,0 +1,97 @@
+ @charset "UTF-8"
+
+ @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+ @font-face {
+    font-family:'Young Serif', serif;
+    src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+ }
+
+@font-face {
+    font-family:'Outfit', sans-serif;
+    src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+ * {
+    margin: 0px;
+    padding: 0px;
+ }
+
+:root {
+    --font-Young-Serif:"Young Serif", serif;
+    --font-Young-Serif1:'Young Serif', serif;
+    --font-Outfit:"Outfit", sans-serif;
+    --font-Outfit1:'Outfit', sans-serif;
+
+
+    --cor0-Nutmeg: hsl(14, 45%, 36%);
+    --cor1-Raspberry: hsl(332, 51%, 32%);
+
+    --cor2-White: hsl(0, 0%, 100%);
+    --cor3-Rose-White: hsl(330, 100%, 98%);
+    --cor4-Eggshell: hsl(30, 54%, 90%);
+    --cor5-Light-Grey: hsl(30, 18%, 87%);
+    --cor6-Wenge-Brown: hsl(30, 10%, 34%);
+    --cor7-Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    min-width: 375px;
+    max-width: 1440px;
+    background-color: var(--cor4-Eggshell)
+}
+
+main {
+    min-width: 375px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 42px;
+    margin-bottom: 30px;
+    padding: 60px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+
+
+/*Tabela =D ----------------------------------------*/
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label {
+    flex: 0.5; /* Ocupa o espaço disponível */
+    padding: 5px;
+}
+
+.value {
+    flex: 1; /* Ocupa o espaço disponível */
+    text-align: justify;
+    padding: 3px;
+}
+
+/*-----------------------------------------------------*/
+
+
+footer {
+    display: flex;
+    margin: auto 0;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(45, 117, 224);
+}
