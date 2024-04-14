@@ -50,36 +50,6 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
 }
 
-h1, h2 {
-	font-family: var(--font-Young-Serif);
-	font-weight: 400;
-}
-
-h1 {
-	font-size: 40px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	color: var(--cor7-Dark-Charcoal);
-	padding-bottom: 24px;
-	width: 100%;
-}
-
-h2 {
-	font-size: 28px;
-	line-height: 100%;
-	color: var(--cor0-Nutmeg);
-	letter-spacing: 0%;
-	padding-bottom: 24px;
-}
-
-h3 {
-	font-size: 20px;
-	line-height: 100%;
-	letter-spacing: 0%;
-	color: var(--cor1-Raspberry);
-	padding-bottom: 16px;
-}
-
 p, li {
 	color: var(--cor6-Wenge-Brown);
 	font-size: 16px;
@@ -87,10 +57,7 @@ p, li {
 	letter-spacing: 0%;
 }
 
-h3, p, li {
-	font-family: var(--font-Outfit);
-	font-style: normal;
-}
+
 
 li {
 	padding-bottom: 8px;
@@ -125,6 +92,37 @@ ul, ol {
 }
 
 
+h1, h2 {
+	font-family: var(--font-Young-Serif);
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: var(--cor7-Dark-Charcoal);
+	padding-bottom: 24px;
+	width: 100%;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 100%;
+	color: var(--cor0-Nutmeg);
+	padding-bottom: 24px;
+}
+
+.prepTitle {
+    color: var(--cor1-Raspberry) !important;
+	font-family: var(--font-Outfit);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    padding-bottom: 16px;
+    line-height: 100%;
+}
+
 section {
 	padding: 32px 0;
 	border-bottom: solid 1px #E3DDD7;
@@ -146,6 +144,8 @@ section:last-of-type {
 
 img {
 	width: 100%;
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 20px !important;
 	border-radius: 12px;
 	margin-bottom: 40px;
 	padding-top: 40px;
