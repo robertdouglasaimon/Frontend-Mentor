@@ -41,8 +41,7 @@ body {
     min-width: 375px;
     max-width: 1440px;
     background-color: var(--cor4-Eggshell);
-    font-family: var(--font-Outfit1);
-    
+    font-family: var(--font-Outfit1);  
 }
 
 main {
