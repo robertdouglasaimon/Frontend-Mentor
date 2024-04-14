@@ -1,4 +1,4 @@
- @charset "UTF-8"
+ @charset "UTF-8";
 
  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
@@ -40,16 +40,17 @@
 body {
     min-width: 375px;
     max-width: 1440px;
-    background-color: var(--cor4-Eggshell)
+    background-color: var(--cor4-Eggshell);
+    font-family: var(--font-Outfit1);
 }
 
 main {
     min-width: 375px;
     max-width: 800px;
     margin: auto;
-    margin-top: 42px;
+    margin-top: 70px;
     margin-bottom: 30px;
-    padding: 60px;
+    padding: 40px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     border-top-left-radius: 25px;
@@ -58,8 +59,62 @@ main {
     border-bottom-right-radius: 25px;
 }
 
+main img {
+    width: 100%;
+}
 
+img {
+    width: 800px;
+    height: 300px;
+    margin: auto 0;
+    text-align: center;
+    justify-content: center;
+    border-radius: 18px;
+}
 
+h1 {
+    font-family: var(--font-Young-Serif1);
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+p {
+    font-family: var(--font-Outfit1);
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 19px;
+    padding-left: 29px;
+    color: var(--cor1-Raspberry);
+}
+
+.osH2 {
+    font-family: var(--font-Young-Serif);
+    font-weight: 400;
+    font-size: 28px;
+    color: var(--cor0-Nutmeg);
+    text-align:start;
+    padding: 40px 0px 10px 0px;
+}
+
+.H2li li {
+    padding: 5px 5px 5px 5px;
+}
+
+.recoil {
+    padding-left: 58px;
+}
+
+.recoil ul > li {
+    padding: 15px 5px 5px 0px;
+}
+
+.vertical {
+    margin: 28px 0px 0px 0px !important;
+}
 
 /*Tabela =D ----------------------------------------*/
 
@@ -72,13 +127,18 @@ main {
 
 .label {
     flex: 0.5; /* Ocupa o espaço disponível */
-    padding: 5px;
+    padding: 15px 0px 0px 0px;
+    font-family: var(--font-Outfit);
+    font-weight: 400;
 }
 
 .value {
     flex: 1; /* Ocupa o espaço disponível */
     text-align: justify;
     padding: 3px;
+    color: var(--cor0-Nutmeg);
+    font-weight: bolder;
+    font-family: var(--font-Outfit1);
 }
 
 /*-----------------------------------------------------*/
@@ -89,9 +149,104 @@ footer {
     margin: auto 0;
     text-align: center;
     justify-content: center;
+    color: var(--cor0-Nutmeg);
+    font-weight: 600;
+}
+
+footer a {
+    color: var(--cor0-Nutmeg);
     text-decoration: none;
 }
 
 footer a:hover {
     color: rgb(45, 117, 224);
+    
 }
+
+/*---------------------RESPONSIVIDADE------------------------------------------------------------------*/
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        background-color: #fff;
+        font-family: var(--font-Outfit1);
+        word-wrap: break-word;
+        text-align: left;
+    }
+
+    h1 {
+        font-family: var(--font-Young-Serif1);
+        font-size: 37px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        word-wrap: break-word;
+    }
+
+    main img {
+        width: 100%;
+    }
+    
+    img {
+        width: 80px;
+        height: 150px;
+        margin: auto 0;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    main {
+        width: 375px;
+        margin: auto;
+        padding: 0px;
+        background-color: white;  
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+    }
+
+    /*Tabela =D ----------------------------------------*/
+
+    .item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .label {
+        flex: 0.5; /* Ocupa o espaço disponível */
+        padding: 15px 0px 0px 0px;
+        font-family: var(--font-Outfit);
+        font-weight: 400;
+        align-items: center;
+        text-align: center;
+    }
+
+    .value {
+        flex: 1; /* Ocupa o espaço disponível */
+        text-align: center;
+        padding: 3px;
+        color: var(--cor0-Nutmeg);
+        font-weight: bolder;
+        font-family: var(--font-Outfit1);
+    }
+
+/*-----------------------------------------------------*/
+
+footer {
+        display: flex;
+        margin: auto 0;
+        text-align: center;
+        justify-content: center;
+        color: var(--cor0-Nutmeg);
+        font-weight: 400;    
+    }
+
+    footer p {
+        padding-top: 20px;
+        font-size: 10px;
+    }
+    
+  }
+  
