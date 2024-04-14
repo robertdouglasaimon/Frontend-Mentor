@@ -100,8 +100,14 @@ h2 {
     padding: 40px 0px 10px 0px;
 }
 
-.H2li li {
-    padding: 5px 5px 5px 5px;
+.H2li ul > li {
+    padding: 0px 0px 15px 10px;
+    margin-left: 20px;
+}
+
+.H2li ol > li {
+    padding: 0px 0px 15px 10px;
+    margin-left: 20px;
 }
 
 .recoil {
