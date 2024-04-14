@@ -23,7 +23,7 @@ git clone https://github.com/robertdouglasaimon/Frontend-Mentor.git
 cd Frontend-Mentor
 
 
-3. Abra o arquivo <a href="https://robertdouglasaimon.github.io/Frontend-Mentor/Desafios/D3/index.html">`index.html`</a> em seu navegador.
+3. Abra o arquivo <a href="https://robertdouglasaimon.github.io/Frontend-Mentor/Desafios/D3/recipe-page-main/recipe-page-main/index.html">`index.html`</a> em seu navegador.
 
 ## Desenvolvimento
 
