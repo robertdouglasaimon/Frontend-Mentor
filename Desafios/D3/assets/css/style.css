@@ -42,6 +42,7 @@ body {
     max-width: 1440px;
     background-color: var(--cor4-Eggshell);
     font-family: var(--font-Outfit1);
+    
 }
 
 main {
@@ -57,6 +58,7 @@ main {
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    color: var(--cor0-Nutmeg);
 }
 
 main img {
@@ -77,12 +79,14 @@ h1 {
     font-size: 45px;
     padding-top: 20px;
     padding-bottom: 15px;
+    color: var(--cor7-Dark-Charcoal);
 }
 
 p {
     font-family: var(--font-Outfit1);
     padding-bottom: 20px;
     font-size: 16px;
+    color: var(--cor6-Wenge-Brown);
 }
 
 h2 {
@@ -103,16 +107,29 @@ h2 {
 .H2li ul > li {
     padding: 0px 0px 15px 10px;
     margin-left: 20px;
+    color: var(--cor6-Wenge-Brown);
+}
+
+.H2li ul > li::marker {
+    color:var(--cor1-Raspberry);
+    font-weight: 600;
 }
 
 .H2li ol > li {
     padding: 0px 0px 15px 10px;
     margin-left: 20px;
+    color: var(--cor6-Wenge-Brown);
+}
+
+.H2li ol > li::marker {
+    color:var(--cor1-Raspberry);
+    font-weight: 600;
 }
 
 .background- {
     background-color:hsl(300, 16%, 96%);
     border-radius: 10px;
+    font-family: var(--font-Outfit);
 }
 
 .recoil {
@@ -121,6 +138,12 @@ h2 {
 
 .recoil ul > li {
     padding: 15px 5px 5px 0px;
+    color: var(--cor6-Wenge-Brown);
+}
+
+.recoil ul > li::marker {
+    color:var(--cor1-Raspberry);
+    font-weight: 600;
 }
 
 .vertical {
@@ -141,6 +164,7 @@ h2 {
     padding: 15px 0px 0px 0px;
     font-family: var(--font-Outfit);
     font-weight: 400;
+    color: var(--cor7-Dark-Charcoal);
 }
 
 .value {
