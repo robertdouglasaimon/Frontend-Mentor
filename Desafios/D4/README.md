@@ -1,6 +1,6 @@
-# Desafio Frontend Mentor - Perfil de Links Sociais
+# Desafio Frontend Mentor - Cartão Perfil de Midias Sociais
 
-![Preview do design para o Página de receitas](./assets/design/desktop-design.jpg)
+![Preview do design para o Página de receitas](./assets/design/destkop-design.jpg)
 ![Preview do design para o Página de receitas](./assets/design/mobile-design.jpg)
 
 
