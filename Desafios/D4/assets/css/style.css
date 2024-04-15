@@ -80,6 +80,16 @@ h1 {
     font-weight: 600;
 }
 
+.botoes a {
+    text-decoration: none;
+}
+
+.botoes p:hover {
+    background-color: var(--cor1);
+    color: black;
+    font-weight: 600;
+}
+
 .botoes p:last-of-type {
     margin-bottom: 10;
 }
