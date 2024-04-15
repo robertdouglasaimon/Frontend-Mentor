@@ -1,0 +1,135 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: hsl(75, 94%, 57%);
+
+    --cor2: hsl(0, 0%, 100%);
+    --cor3: hsl(0, 0%, 20%);
+    --cor4:  hsl(0, 0%, 12%);
+    --cor5: hsl(0, 0%, 8%);
+
+    --font1:"Inter", sans-serif;
+}
+
+body {
+    background-color: var(--cor5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: var(--font1);
+}
+
+img {
+    border-radius: 50%;
+    width: 88px;
+    margin-bottom: 24px;
+    margin-top: 30px;
+}
+
+main {
+    background-color: var(--cor4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 384px;
+    margin: auto 0;
+    text-align: center;
+    border-radius: 12px;
+    color: var(--cor2);
+}
+
+h1 {
+    margin: 4px 0;
+    line-height: 150%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.localizacao {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    color: var(--cor1);
+}
+
+.bio {
+    margin: 24px 0;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.botoes p {
+    background-color: var(--cor3);
+    width: 304px;
+    height: 45px;
+    margin: 0px 0px 15px 0px;
+    line-height: 45px;
+    border-radius: 8px;
+    color:white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.botoes p:last-of-type {
+    margin-bottom: 10;
+}
+
+/* .btn {
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5%;
+    border:none;
+    background-color: var(--cor3);
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: var(--font1);
+} */
+
+
+footer {
+    position: absolute;
+    bottom: 1px;
+    color: white;
+    font-size: 10;
+    margin: auto 0;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+footer  a {
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover {
+    color:rgb(38, 130, 167);
+}
+
+footer a:active {
+    color:lightblue;
+}
+
+
+/*-------------------------RESPONSIVIDADE-*/
+@media screen and (max-width: 380px) {
+	main {
+		width: 327px;
+		height: 579px;
+		padding: 24px;
+	}
+}
