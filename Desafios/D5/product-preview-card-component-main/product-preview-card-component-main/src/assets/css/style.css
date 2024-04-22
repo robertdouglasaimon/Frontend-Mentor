@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+:root {
+    --cor1-DarkCyan:hsl(158, 36%, 37%);
+    --cor2-Cream:hsl(30, 38%, 92%);
+    --cor3-White:hsl(0, 0%, 100%);
+    --cor4-DarkGrayishBlue:hsl(228, 12%, 48%);
+    --cor5-VeryDarkBlue: hsl(212, 21%, 14%);
+
+    --fonte1-Montserrat: "Montserrat", sans-serif;
+    --fonte2-Fraunce: "Fraunces", serif;
+    --fw-bold: 700;
+    --fw-semibold: 500;
+
+}
+
+body {
+    background-color: var(--cor2-Cream);
+    height: 100vh;
+}
+
+article {
+    margin-top: 5%;
+}
+
+section {
+    background-color: var(--cor3-White);
+    margin: 0 19.9% 0 18%;
+    /* padding-bottom: 0px; */
+    border-radius: 2%;
+}
+
+img {
+    height: 500px !important;
+    width: 10% !important;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    object-fit: cover;
+}
+
+.position {
+    margin-left: 30px;
+}
+
+h1 {
+    font-family: var(--fonte2-Fraunce);
+    font-weight: 800;
+    
+}
+
+.h2 {
+    font-family: var(--fonte1-Montserrat);
+    font-size: 70%;
+    letter-spacing: 1cap;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+
+.p1 {
+    font-family: var(--fonte1-Montserrat);
+    font-size: 98%;
+}
+
+.posicao-valores {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.valor1 {
+    display: block;
+    font-family: var(--fonte2-Fraunce);
+    font-size: 220%;
+    font-weight: 700;
+    color: var(--cor1-DarkCyan);
+    margin-left: 275px;
+    margin-top: -290px;
+}
+
+.valor2 {
+    display: block;
+    text-decoration: line-through;
+    color: var(--cor5-VeryDarkBlue);
+    margin-left: -270px;
+    margin-top: -290px;
+    font-size: 100%;
+}
+
+
+.cart {
+    display:inline; /* Altera a exibição para flexível para controlar melhor o posicionamento */
+    padding: 10px 20px; /* Define o preenchimento do botão */
+    background-color: var(--cor1-DarkCyan);
+    color: var(--cor3-White);
+    border: none;
+    border-radius: 5px;
+    font-family: var(--fonte1-Montserrat);
+    font-weight: var(--fw-bold);
+
+    
+    text-decoration: none;
+    text-align: center;
+    align-items: center; /* Alinha verticalmente os itens dentro do botão */
+    margin: 0px 0px 0px 700px;
+  }
+  
+.cart img {
+    width: 200px!important;
+    height: 100px!important;
+  }
+  
+
+footer {
+    margin: auto 0px;
+    text-align: center;
+}
+
